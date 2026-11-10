@@ -1,0 +1,413 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #243b5a;
+}
+
+
+/* =========================
+   LOGIN
+   ========================= */
+
+.login-container {
+    width: 420px;
+    max-width: 92%;
+    margin: 60px auto;
+}
+
+.login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0,0,0,.12);
+}
+
+.logo {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1565c0;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+
+/* =========================
+   TEXT
+   ========================= */
+
+h1,
+h2,
+h3 {
+    color: #173b6b;
+}
+
+
+/* =========================
+   FORM
+   ========================= */
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccd6e2;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+
+/* =========================
+   BUTTON
+   ========================= */
+
+button,
+.btn {
+    display: inline-block;
+    border: none;
+    background: #1565c0;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.btn:hover,
+button:hover {
+    opacity: .9;
+}
+
+.btn-success {
+    background: #198754;
+}
+
+.btn-danger {
+    background: #d32f2f;
+}
+
+.btn-warning {
+    background: #d89b00;
+}
+
+
+/* =========================
+   LINK
+   ========================= */
+
+.link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link a {
+    color: #1565c0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* =========================
+   ALERT
+   ========================= */
+
+.error {
+    background: #ffe1e1;
+    color: #a00000;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.success {
+    background: #ddf7e5;
+    color: #126b35;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.alert {
+    padding: 13px;
+    background: #def5e5;
+    color: #146c36;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   DEMO ACCOUNT
+   ========================= */
+
+.demo {
+    margin-top: 20px;
+    padding: 12px;
+    background: #f1f6fc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+/* =========================
+   SIDEBAR
+   ========================= */
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 240px;
+    background: #1565c0;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 12px;
+    margin: 5px 0;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background: #0d4f9c;
+}
+
+.sidebar .logout {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background: #d32f2f;
+}
+
+
+/* =========================
+   CONTENT
+   ========================= */
+
+.content {
+    margin-left: 240px;
+    padding: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 18px 22px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   CARDS
+   ========================= */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,.06);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.number {
+    font-size: 30px;
+    color: #1565c0;
+    font-weight: bold;
+}
+
+
+/* =========================
+   HERO
+   ========================= */
+
+.hero {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   TABLE
+   ========================= */
+
+.table-box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    overflow: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    border-bottom: 1px solid #e6eaf0;
+    text-align: left;
+}
+
+th {
+    background: #f1f5fa;
+}
+
+
+/* =========================
+   FORM BOX
+   ========================= */
+
+.form-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.form-box label {
+    display: block;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.form-box input,
+.form-box select,
+.form-box textarea {
+    width: 100%;
+    padding: 11px;
+    margin-top: 6px;
+    border: 1px solid #ccd6e2;
+    border-radius: 7px;
+}
+
+.form-box textarea {
+    min-height: 100px;
+}
+
+
+/* =========================
+   STATUS
+   ========================= */
+
+.status {
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.status-menunggu {
+    background: #fff0b8;
+    color: #806500;
+}
+
+.status-setuju {
+    background: #d9f5e3;
+    color: #16713a;
+}
+
+.status-tolak {
+    background: #ffe0e0;
+    color: #a00000;
+}
+
+.status-kembali {
+    background: #dceaff;
+    color: #175ca8;
+}
+
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media(max-width: 900px) {
+
+    .sidebar {
+        position: static;
+        width: 100%;
+    }
+
+    .sidebar .logout {
+        position: static;
+        margin-top: 10px;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media(max-width: 550px) {
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
